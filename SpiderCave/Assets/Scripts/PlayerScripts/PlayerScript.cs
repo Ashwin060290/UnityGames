@@ -96,4 +96,13 @@ public class PlayerScript : MonoBehaviour
             grounded = true;
         }
     }
+
+    public void BouncePlayerOnBouncer(float force)
+    {
+        if(grounded)
+        {
+            grounded = false;
+            myBody.AddForce(new Vector2(0,force));
+        }
+    }
 }
