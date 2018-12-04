@@ -55,6 +55,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Bouncer Scripts\BouncerScript.cs" />
      <Compile Include="Assets\Scripts\Collectable Scripts\DiamondScript.cs" />
+     <Compile Include="Assets\Scripts\Controllers\LoadLevelControllerScript.cs" />
+     <Compile Include="Assets\Scripts\Controllers\MainMenuControllerScript.cs" />
      <Compile Include="Assets\Scripts\Door Scripts\DoorScript.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\SpiderScripts\Jumper\SpiderJumperScript.cs" />
