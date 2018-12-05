@@ -54,7 +54,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Bouncer Scripts\BouncerScript.cs" />
+     <Compile Include="Assets\Scripts\Camera Scripts\PlayerFollowScript.cs" />
      <Compile Include="Assets\Scripts\Collectable Scripts\DiamondScript.cs" />
+     <Compile Include="Assets\Scripts\Collectable Scripts\TimeAndAirScript.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Gameplay Controller\AirTimerScript.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Gameplay Controller\GamePlayScript.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Gameplay Controller\LevelTimerScript.cs" />
      <Compile Include="Assets\Scripts\Controllers\LoadLevelControllerScript.cs" />
      <Compile Include="Assets\Scripts\Controllers\MainMenuControllerScript.cs" />
      <Compile Include="Assets\Scripts\Door Scripts\DoorScript.cs" />
