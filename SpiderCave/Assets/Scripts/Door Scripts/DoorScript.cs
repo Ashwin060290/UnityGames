@@ -42,6 +42,7 @@ public class DoorScript : MonoBehaviour {
     {
         if(collider.tag == "Player")
         {
+            GameObject.Find("GamePlayController").GetComponent<GamePlayScript>().PlayerDied();
             Debug.Log("Game Finished");
         }
     }

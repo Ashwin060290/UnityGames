@@ -36,6 +36,7 @@ public class LevelTimerScript : MonoBehaviour {
         }
         else
         {
+            GetComponent<GamePlayScript>().PlayerDied();
             Destroy(player);
         }
 

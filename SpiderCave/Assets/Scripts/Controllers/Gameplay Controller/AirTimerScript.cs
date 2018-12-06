@@ -34,6 +34,7 @@ public class AirTimerScript : MonoBehaviour {
         }
         else
         {
+            GetComponent<GamePlayScript>().PlayerDied();
             Destroy(player);
         }
        
